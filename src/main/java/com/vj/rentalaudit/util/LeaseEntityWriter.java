@@ -40,8 +40,8 @@ public class LeaseEntityWriter {
     static {
         
     	
-    	leaseEntities.add(new LeaseEntity("ItemA", "06/04/2019", "23/03/2027", 65000, 0, 6, 0, 12.0, 0));
-    	leaseEntities.add(new LeaseEntity("ItemB", "15/06/2019", "26/03/2023", 20000, 0, 3, 1, 10.0, 0));
+    	leaseEntities.add(new LeaseEntity("ItemA", "01/01/2015", "31/10/2024", 52000, 0, 0, 3, 15.0, 0));
+    	//leaseEntities.add(new LeaseEntity("ItemB", "15/06/2019", "26/03/2023", 20000, 0, 3, 1, 10.0, 0));
 
     }
 

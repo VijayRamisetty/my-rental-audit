@@ -205,7 +205,7 @@ public class RentalAuditCalculator {
 		}
 		
 		// pre-final list display
-		boolean displayPrefinalList =  false;
+		boolean displayPrefinalList =  true;
 		
 		if(displayPrefinalList) 
 		{
@@ -230,7 +230,9 @@ public class RentalAuditCalculator {
 				}
 			}
 
-			//displayList(finalList);
+			finalList.add(preFinalList.get(preFinalList.size()-1));
+			
+			displayList(finalList);
 		
 		return finalList;
 	}
